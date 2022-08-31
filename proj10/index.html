@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="8" />
+        <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Theme Clock</title>
+    </head>
+    <body>
+        <button class="toggle">Dark Mode</button>
+        <div class="clock-contiainer">
+            <div class="clock">
+                <div class="needle hour"></div>
+                <div class="needle minute"></div>
+                <div class="needle second"></div> 
+                <div class="center-point"></div>
+            </div>
+            <div class="time"></div>
+            <div class="date"></div> 
+            <div class="stop-container">
+               <span id="mins">00</span>:<span id="seconds">00</span>:<span id="tens">00</span> 
+            </div>
+            <button id="button-start" class="toggle2">Start</button>
+            <button id="button-stop" class="toggle2">Stop</button>
+            <button id="button-reset" class="toggle2">Reset</button> 
+           
+            <div class="timer-container">
+                <input id="userInput" type="number" defaultValue = "00"/> 
+                <span id="mins2">00</span>:<span id="seconds2">00</span>:<span id="tens2">00</span>
+            </div>
+            <button id="button-start2" class="toggle2">Start</button>
+            <button id="button-pause2" class="toggle2">Pause</button>
+            <button id="button-reset2" class="toggle2">Reset</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
